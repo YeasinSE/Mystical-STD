@@ -1,0 +1,20 @@
+{
+  "name": "scanner-sonar-infrastructure-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "infrastructrure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.515.0",
+    "dotenv": "^16.4.4",
+    "ioredis": "^5.3.2",
+    "kafkajs": "^2.2.4",
+    "mime-types": "^2.1.35",
+    "shell-quote": "^1.8.1",
+    "stack-trace": "^1.0.0-pre2"
+  }
+}

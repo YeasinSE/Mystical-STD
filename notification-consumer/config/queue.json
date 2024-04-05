@@ -1,0 +1,19 @@
+{
+    "defaultJobOptions":{
+      "attempts": 3,
+      "backoff": {
+          "delay": 1000,
+          "type" : "exponential"
+  
+      },
+      "delay": 500,
+      "removeOnComplete":{
+          "count": 100,
+          "age" : 86400
+      },
+      "removeOnFail": {
+          "count": 100,
+          "age" : 86400
+      }
+    }
+}
