@@ -12,11 +12,14 @@ The project is still in testing progress. Hopefully, many new features will be a
 
 1. Api gateway
 2. Trace and Monitoring API
-3. ETL Pipeline
-8. Deploy app in digital ocean cloud
-5. Setup devOps etc
+3. ETL Pipeline etc
 
 `Hopefully, from the next version, I will try to implement one by one.`
+
+`I intend to add some more new features in the future. such as`
+
+1. DigitalOcean deployment infrastructure
+2. Setup devOps etc
 
 ## Services:
 
