@@ -79,7 +79,10 @@ The Scanner-Bearer Infrastructure is a comprehensive security management platfor
 
   - `Enhanced Code Quality:` With its streamlined scanning workflow, the infrastructure helps organizations identify and 
     address code quality issues early in the development process, leading to higher-quality software products.
-
+    
+ - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
+     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
+     troubleshooting, ensuring timely resolution of deployment issues.
 
 
 `Note:` Mystical Bearer infrastructure was not tested now. if any one have bearer cloud access you can test this infrastructure OR you can share credential with me.
