@@ -79,6 +79,10 @@ The Scanner-Sonar Infrastructure represents a comprehensive security management 
   - `Enhanced Code Quality:` With its streamlined scanning workflow, the infrastructure helps organizations identify and 
     address code quality issues early in the development process, leading to higher-quality software products.
 
+  - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
+     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
+     troubleshooting, ensuring timely resolution of deployment issues.
+
 
 ### Follow the instruction step by step
 Before go to step you should be install docker in your system and create an project on sonar cloud for visualization project scan report.
