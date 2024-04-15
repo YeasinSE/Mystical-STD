@@ -34,10 +34,9 @@ During deployment, logs offer insights into deployment progress, application hea
      Centralized logging enhances security by providing a comprehensive audit trail of system activities and potential security 
      incidents.
     
- - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
-     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
-     troubleshooting, ensuring timely resolution of deployment issues.
-
+ -  `Efficient Error Handling:` Using Redis Pub/Sub, the infrastructure facilitates efficient error handling and 
+    troubleshooting, minimizing deployment downtime and ensuring seamless delivery of api.
+    
 ### Follow the instruction step by step
 Before go to step you should be install node in your system. i used node 20.x version.
 
