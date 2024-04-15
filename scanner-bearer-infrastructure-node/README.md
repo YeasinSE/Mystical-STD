@@ -25,6 +25,10 @@ The Scanner-Bearer Infrastructure is a comprehensive security management platfor
   - `AWS SQS Integration:` AWS SQS enables efficient queuing and notification management. The infrastructure produces scanning 
      requests as messages in SQS queues, ensuring reliable delivery of scanning requests and notifications.
 
+  - `Redis for Asynchronous Error Handling:` Redis is utilized for asynchronous error handling, allowing the infrastructure to 
+     efficiently handle system errors and ensure minimal downtime during scanning processes.
+    
+
 #### `Scanning Workflow:`
 
   - `Triggering Scanning Requests:` The Scanner Consumer Server initiates scanning requests for web applications, 
@@ -48,9 +52,9 @@ The Scanner-Bearer Infrastructure is a comprehensive security management platfor
   - `Notifying Via AWS SQS:` Finally, the infrastructure notifies stakeholders via aws SQS about the completion of the 
      scanning process, providing relevant information and status updates.
     
-  - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
-     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
-     troubleshooting, ensuring timely resolution of deployment issues.
+  - `Asynchronous Error Handling:` In the event of system errors during the scanning process, Redis is utilized for 
+    asynchronous error handling. Error messages are published to Redis using the publish/subscribe (Pub/Sub) model, allowing 
+    for efficient error resolution and minimal disruption to scanning processes.
 
 
 #### `Notification Management:`
