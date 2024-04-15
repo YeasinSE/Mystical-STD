@@ -12,13 +12,20 @@ Upon consuming logs from Kafka topics, the API Log Kafka Consumer Server stores 
 
   - `Real-time Log Ingestion:`
      Logs are consumed from Kafka topics in real-time, ensuring timely access to critical information.
+    
   - `Scalable Storage:`
      Log data is stored in AWS DynamoDB, providing developers with a scalable and reliable storage solution for log data.
+    
   - `High Availability:`
      DynamoDB offers high availability and durability, ensuring that log data is always accessible and resilient to failures.
+    
   - `Simplified Monitoring and Troubleshooting:`
      By centralizing log data in DynamoDB, developers can streamline monitoring and troubleshooting efforts, leading to faster 
      issue resolution and improved operational efficiency.
+
+  - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
+     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
+     troubleshooting, ensuring timely resolution of deployment issues.
 
 ### Follow the instruction step by step
 Before go to step you should be install node in your system and. i used node 20.x version.
