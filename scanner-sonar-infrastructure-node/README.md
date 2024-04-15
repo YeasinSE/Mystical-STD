@@ -47,10 +47,6 @@ The Scanner-Sonar Infrastructure represents a comprehensive security management 
 
   - `Notifying Via AWS SQS:` Finally, the infrastructure notifies stakeholders via aws SQS about the completion of the 
      scanning process, providing relevant information and status updates.
-    
-  - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
-     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
-     troubleshooting, ensuring timely resolution of deployment issues.
 
 Benefits of Deployer-Mystical-Infrastructure:
 
