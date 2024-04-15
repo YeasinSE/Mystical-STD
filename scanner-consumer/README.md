@@ -41,10 +41,6 @@ The Scanner Consumer Server serves as a central component of scanning infrastruc
   - `Executing ECS Task:` The Scanner-Consumer Server communicates with AWS ECS to schedule and execute the scanning task. 
      This task involves analyzing the web application for security vulnerabilities and generating a comprehensive report.
 
-  - `Real-Time Notifications:` Throughout the scanning process, the server provides real-time notifications to stakeholders, 
-     keeping them informed about the scanning status and progress. This transparency fosters collaboration and enables timely 
-     remediation of security issues.
-
   - `Asynchronous Error Handling with Redis:` If system errors occur during scanning, such as message consumption failures or 
      task execution errors, the server publishes error messages to Redis. Stakeholders can monitor error logs in real-time and 
      take corrective actions as needed, ensuring minimal disruption to the scanning pipeline.
@@ -60,9 +56,6 @@ The Scanner Consumer Server serves as a central component of scanning infrastruc
     
   -  `Dynamic Provisioning:` Scanner tasks are provisioned dynamically based on requested scanner providers, enabling 
      flexibility and optimization of scanning resources.
-     
-  - `Comprehensive Reporting:` Scanning results are delivered to clients in comprehensive reports, providing actionable 
-    insights into code security, quality, and compliance.
     
   - `Efficient Error Handling:` Asynchronous error handling with Redis ensures prompt resolution of system errors, minimizing 
      downtime and maintaining application security.
