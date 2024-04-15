@@ -47,6 +47,10 @@ The Scanner-Bearer Infrastructure is a comprehensive security management platfor
     
   - `Notifying Via AWS SQS:` Finally, the infrastructure notifies stakeholders via aws SQS about the completion of the 
      scanning process, providing relevant information and status updates.
+    
+  - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
+     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
+     troubleshooting, ensuring timely resolution of deployment issues.
 
 
 #### `Notification Management:`
@@ -80,9 +84,8 @@ The Scanner-Bearer Infrastructure is a comprehensive security management platfor
   - `Enhanced Code Quality:` With its streamlined scanning workflow, the infrastructure helps organizations identify and 
     address code quality issues early in the development process, leading to higher-quality software products.
     
- - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
-     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
-     troubleshooting, ensuring timely resolution of deployment issues.
+  - `Efficient Error Handling:` Using Redis Pub/Sub, the infrastructure facilitates efficient error handling and 
+     troubleshooting, minimizing deployment downtime and ensuring seamless delivery of web applications.
 
 
 `Note:` Mystical Bearer infrastructure was not tested now. if any one have bearer cloud access you can test this infrastructure OR you can share credential with me.
