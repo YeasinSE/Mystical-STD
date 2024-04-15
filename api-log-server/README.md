@@ -22,15 +22,21 @@ During deployment, logs offer insights into deployment progress, application hea
   - `Centralized Visibility:`
      Developers gain centralized visibility into logs generated across infrastructure components, facilitating monitoring and 
      troubleshooting.
+    
   - `Real-time Access:`
      Logs are fetched in real-time, allowing developers to react promptly to issues as they arise.
+    
   -  `Improved Collaboration:`
      With a unified logging platform, teams can collaborate more effectively by sharing insights and resolving issues   
      collaboratively.
+     
   - `Enhanced Security:`
      Centralized logging enhances security by providing a comprehensive audit trail of system activities and potential security 
      incidents.
-
+    
+ - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
+     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
+     troubleshooting, ensuring timely resolution of deployment issues.
 
 ### Follow the instruction step by step
 Before go to step you should be install node in your system. i used node 20.x version.
