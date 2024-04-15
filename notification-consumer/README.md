@@ -17,13 +17,19 @@ Once notifications are consumed from AWS SQS, the Notification Consumer Server d
 
   - `Centralized Notification Management:` Notifications from different sources are consolidated and managed centrally,   
      simplifying notification management and reducing complexity.
+    
   - `Real-time Notification Delivery:` Notifications are delivered to clients in real-time as they are produced, ensuring 
     timely communication and response to critical events.
+    
   - `Multi-channel Communication:` Notifications are delivered to clients via different communication channels, including email 
     and SMS, accommodating diverse communication preferences and requirements.
+    
   - `Scalable and Reliable Infrastructure:` By leveraging AWS SQS for message queuing and other cloud services for 
     communication, the consumer server ensures scalability, reliability, and high availability, even under heavy loads.
-
+    
+ - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
+     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
+     troubleshooting, ensuring timely resolution of deployment issues.
 
 ### Follow the instruction step by step
 Before go to step you should be install node in your system. i used node 20.x version.
