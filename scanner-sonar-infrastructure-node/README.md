@@ -25,12 +25,15 @@ The Scanner-Sonar Infrastructure represents a comprehensive security management 
   - `AWS SQS Integration:` AWS SQS enables efficient queuing and notification management. The infrastructure produces scanning 
      requests as messages in SQS queues, ensuring reliable delivery of scanning requests and notifications.
 
+  - `Redis for Asynchronous Error Handling:` Redis is utilized for asynchronous error handling, allowing the infrastructure to 
+     efficiently handle system errors and ensure minimal downtime during scanning processes.
+
 #### `Scanning Workflow:`
 
   - `Triggering Scanning Requests:` The Scanner Consumer Server initiates scanning requests for web applications, triggering 
      the Scanner-Sonar Infrastructure to commence the scanning process.
 
-  - `Orchestrating the Scanning Process: `Upon receiving a scanning request, the infrastructure orchestrates the scanning 
+  - `Orchestrating the Scanning Process:` Upon receiving a scanning request, the infrastructure orchestrates the scanning 
      process, invoking Sonar CLI to perform static code analysis on web application codebases.
 
   - `Analyzing Security Vulnerabilities:` Sonar CLI conducts comprehensive scanning of web application projects, identifying 
@@ -48,9 +51,9 @@ The Scanner-Sonar Infrastructure represents a comprehensive security management 
   - `Notifying Via AWS SQS:` Finally, the infrastructure notifies stakeholders via aws SQS about the completion of the 
      scanning process, providing relevant information and status updates.
     
-  - `Error Handling with Redis Pub/Sub:` In the event of system errors during scanning, the infrastructure publishes error 
-     messages to Redis using the publish/subscribe (Pub/Sub) model. This allows for efficient error handling and 
-     troubleshooting, ensuring timely resolution of deployment issues.
+  - `Asynchronous Error Handling:` In the event of system errors during the scanning process, Redis is utilized for 
+    asynchronous error handling. Error messages are published to Redis using the publish/subscribe (Pub/Sub) model, allowing 
+    for efficient error resolution and minimal disruption to scanning processes.
 
 
 Benefits of Deployer-Mystical-Infrastructure:
