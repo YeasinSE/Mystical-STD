@@ -28,6 +28,7 @@ The Scanner-Sonar Infrastructure represents a comprehensive security management 
   - `Redis for Asynchronous Error Handling:` Redis is utilized for asynchronous error handling, allowing the infrastructure to 
      efficiently handle system errors and ensure minimal downtime during scanning processes.
 
+
 #### `Scanning Workflow:`
 
   - `Triggering Scanning Requests:` The Scanner Consumer Server initiates scanning requests for web applications, triggering 
@@ -56,14 +57,13 @@ The Scanner-Sonar Infrastructure represents a comprehensive security management 
     for efficient error resolution and minimal disruption to scanning processes.
 
 
-Benefits of Deployer-Mystical-Infrastructure:
-
 #### Notification Management:
 
   - The infrastructure utilizes AWS SQS for efficient notification management, providing real-time updates on scanning status 
     and results.
   - Stakeholders receive notifications via preferred channels such as email or messaging platforms, ensuring timely awareness 
     of security status and issues.
+
 
 #### `Benefits of Scanner-Sonar Infrastructure:`
 
