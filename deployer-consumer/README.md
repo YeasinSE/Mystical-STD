@@ -28,7 +28,7 @@ Upon completion of deployment tasks, the Deployer Consumer Server aggregates dep
      deployment outcomes and enabling teams to make informed decisions.
 
 
-`Handle Customer all deploy request and process to deploy project on server. currently support deploy project on AWS s3.`
+`NOTE: currently support deploy project on AWS s3 only.`
 
 
 ### Follow the instruction step by step
