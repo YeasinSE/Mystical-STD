@@ -10,14 +10,6 @@ In today's digital landscape, agility and reliability are paramount for organiza
 #### `Introducing the Deployer Consumer Server:`
 The Deployer Consumer Server serves as a central component of continuous deployment infrastructure, facilitating the execution of deployment tasks across different deployment providers and infrastructure components. By consuming project deployment requests from AWS SQS, the consumer server orchestrates the execution of deployment tasks on AWS ECS—a scalable container orchestration service. It dynamically provisions deployment containers based on requested deployer providers, executes deployment tasks, and delivers deployment results to clients. At the heart of modern deployment pipelines lies the Deployer-Consumer Server, engineered with Node.js, AWS ECS, SQS, and Redis. By harnessing the power of these technologies, organizations can achieve scalable, reliable, and efficient deployment workflows.
 
-#### `Consuming Project Deployment Requests from AWS SQS:`
-AWS SQS provides a reliable and scalable message queuing service, allowing the API server to produce project deployment requests as messages in SQS queues. The Deployer Consumer Server subscribes to designated SQS queues, fetching deployment requests in real-time as they are produced. By leveraging SQS's distributed messaging architecture, the consumer server ensures efficient and reliable delivery of deployment requests to the deployment infrastructure.
-
-#### `Executing Deployment Tasks on AWS ECS:`
-Once deployment requests are consumed from AWS SQS, the Deployer Consumer Server dynamically provisions deployment tasks on AWS ECS based on requested deployer providers. It launches deployment containers, configures deployment environments, and executes deployment tasks in isolated and scalable containerized environments. By leveraging ECS's capabilities for container management and orchestration, the consumer server ensures efficient and scalable execution of deployment tasks.
-
-#### `Delivering Deployment Results:`
-Upon completion of deployment tasks, the Deployer Consumer Server aggregates deployment results and delivers them to clients via various communication channels, including email, API endpoints, or notification services. By providing detailed insights into deployment outcomes, the consumer server enables teams to monitor deployment progress, track performance metrics, and troubleshoot any issues that arise during the deployment process.
 
 #### `Key Components and Functionality:`
 
@@ -49,9 +41,10 @@ Upon receiving a deployment request from a client via the API, the Api Server va
  - `Executing ECS Task:` The Deployer-Consumer Server communicates with AWS ECS to schedule and execute the deployment 
        task. This task involves building, packaging, and deploying the web application to the target environment.
 
-  - `Asynchronous Error Handling:`  If system errors occur during deployment, such as message consumption failures or task 
+ - `Asynchronous Error Handling:`  If system errors occur during deployment, such as message consumption failures or task 
        execution errors, the server publishes error messages to Redis. Stakeholders can monitor error logs in real-time and 
        take corrective actions as needed, ensuring minimal disruption to the deployment pipeline.
+
 
 #### `Benefits of Using a Deployer Consumer Server:`
 
@@ -63,9 +56,6 @@ Upon receiving a deployment request from a client via the API, the Api Server va
     
   - `Dynamic Provisioning:` Deployment tasks are provisioned dynamically based on requested deployer providers, enabling 
      flexibility and optimization of deployment resources.
-    
-  - `Enhanced Visibility:` Deployment results are delivered to clients in real-time, providing actionable insights into 
-     deployment outcomes and enabling teams to make informed decisions.
     
   - `Efficient Error Handling:` Asynchronous error handling with Redis ensures prompt resolution of system errors, minimizing 
      downtime and maintaining service availability.
