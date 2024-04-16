@@ -35,8 +35,7 @@ Reverse Proxy Servers play a crucial role in web application delivery by serving
   - `AWS S3:` Serves as the hosting platform for production web apps.
 
 `NOTE: For educational purposes, the current setup focuses on simplicity, merely loading the client's web application.`
-
-`check issue: https://github.com/YeasinSE/Mystical-STD/issues/1`
+[check issue](https://github.com/YeasinSE/Mystical-STD/issues/1)
 
 
 ### Follow the instruction step by step
