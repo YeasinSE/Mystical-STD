@@ -25,19 +25,19 @@ The project is still in testing progress. Hopefully, many new features will be a
 
 `Please click for details information about each service.`
 -------------------------------------------------------------------------------------
-- [Api-Server](https://github.com/YeasinSE/Mystical-STD/edit/main/api-server/README.md)
-- [Api-Log-Server](https://github.com/YeasinSE/Mystical-STD/blob/main/api-log-server/README.md)
-- [Deployer-Consumer](https://github.com/YeasinSE/Mystical-STD/blob/main/deployer-consumer/README.md)
-- [Deployer-Mystical-Infrastructure](https://github.com/YeasinSE/Mystical-STD/blob/main/deployer-mystical-infrastructure/README.md)
-- [Log-Consumer](https://github.com/YeasinSE/Mystical-STD/blob/main/log-consumer/README.md)
-- [Notification-Consumer](https://github.com/YeasinSE/Mystical-STD/blob/main/notification-consumer/README.md)
-- [Scanner-Consumer](https://github.com/YeasinSE/Mystical-STD/blob/main/scanner-consumer/README.md)
-- [Scanner-Mystical-Infrastructure](https://github.com/YeasinSE/Mystical-STD/blob/main/scanner-mystical-infrastructure-node/README.md)
-- [Scanner-Sonar-Infrastructure](https://github.com/YeasinSE/Mystical-STD/blob/main/scanner-sonar-infrastructure-node/README.md)
-- [Scanner-Bearer-Infrastructure](https://github.com/YeasinSE/Mystical-STD/blob/main/scanner-bearer-infrastructure-node/README.md)
-- [System-Log-Consumer](https://github.com/YeasinSE/Mystical-STD/blob/main/system-log-consumer/README.md)
-- [Mystical-App](https://github.com/YeasinSE/Mystical-STD/blob/main/mystical-app/README.md)
-- [Proxy-Server](https://github.com/YeasinSE/Mystical-STD/blob/main/proxy-server/README.md)
+- [Api-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/api-server)
+- [Api-Log-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/api-log-server)
+- [Deployer-Consumer](https://github.com/YeasinSE/Mystical-STD/tree/main/deployer-consumer)
+- [Deployer-Mystical-Infrastructure](https://github.com/YeasinSE/Mystical-STD/tree/main/deployer-mystical-infrastructure)
+- [Log-Consumer](https://github.com/YeasinSE/Mystical-STD/tree/main/log-consumer)
+- [Notification-Consumer](https://github.com/YeasinSE/Mystical-STD/tree/main/notification-consumer)
+- [Scanner-Consumer](https://github.com/YeasinSE/Mystical-STD/tree/main/scanner-consumer)
+- [Scanner-Mystical-Infrastructure](https://github.com/YeasinSE/Mystical-STD/tree/main/scanner-mystical-infrastructure-node)
+- [Scanner-Sonar-Infrastructure](https://github.com/YeasinSE/Mystical-STD/tree/main/scanner-sonar-infrastructure-node)
+- [Scanner-Bearer-Infrastructure](https://github.com/YeasinSE/Mystical-STD/tree/main/scanner-bearer-infrastructure-node)
+- [System-Log-Consumer](https://github.com/YeasinSE/Mystical-STD/tree/main/system-log-consumer)
+- [Mystical-App](https://github.com/YeasinSE/Mystical-STD/tree/main/mystical-app)
+- [Proxy-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/proxy-server)
 
 ## How To Start Mystical application
 If all above service configure and run successfully now you can go throw below step for Execute the api in postman.
