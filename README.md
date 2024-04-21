@@ -16,11 +16,6 @@ The project is still in testing progress. Hopefully, many new features will be a
 
 `Hopefully, from the next version, I will try to implement one by one.`
 
-`I intend to add some more new features in the future. such as`
-
-1. DigitalOcean deployment infrastructure
-2. Setup devOps etc
-
 ## Services:
 
 `Please click for details information about each service.`
