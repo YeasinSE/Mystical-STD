@@ -5,6 +5,8 @@ MysticalSTD is a simple app built to demonstrate the Microservice Architecture P
 
 The project is still in testing progress. Hopefully, many new features will be added in the future. [Lets check whats new will come](https://github.com/YeasinSE/Mystical-STD/issues)
 
+### `Since the project is developed for learning, the architecture may change if something new is added or improvements are made.`
+
 ## Architecture
 ![Mystical_Architect](https://github.com/YeasinSE/Mystical-STD/assets/67215692/00cb360d-9e5e-461b-96d5-c798f5e1fee1)
 
