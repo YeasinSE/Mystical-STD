@@ -8,7 +8,10 @@ The project is still in testing progress. Hopefully, many new features will be a
 ### `Since the project is developed for learning, the architecture may change if something new is added or improvements are made.`
 
 ## Architecture
-![Mystical_Architect](https://github.com/YeasinSE/Mystical-STD/assets/67215692/00cb360d-9e5e-461b-96d5-c798f5e1fee1)
+
+
+![Mystical_Architect_final](https://github.com/YeasinSE/Mystical-STD/assets/67215692/e163233c-fc93-499d-9fbc-5ba4aaf71082)
+
 
 `Note: I have skipped some features of the above architecture in this version. For example:`
 
