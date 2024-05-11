@@ -27,6 +27,7 @@ The project is still in testing progress. Hopefully, many new features will be a
 -------------------------------------------------------------------------------------
 - [Api-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/api-server)
 - [Api-Log-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/api-log-server)
+- [Api-Gateway-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/api-gateway-server)
 - [Deployer-Consumer](https://github.com/YeasinSE/Mystical-STD/tree/main/deployer-consumer)
 - [Deployer-Mystical-Infrastructure](https://github.com/YeasinSE/Mystical-STD/tree/main/deployer-mystical-infrastructure)
 - [Log-Consumer](https://github.com/YeasinSE/Mystical-STD/tree/main/log-consumer)
