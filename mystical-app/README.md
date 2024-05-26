@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Tools, packages and their versions
 
-## Getting Started
+# Node.js
 
-First, run the development server:
+We're using v20.10.0 (you can look up to [nvm](https://github.com/nvm-sh/nvm) and make sure you have the right Node version before installing the mystical-app)
+
+# Next,js
+
+Our main frontend framework is Next.js v14.2.3 (app router) and we're doing all the fun with server-components and client-components
+
+# Styling
+
+We are using [Tailwindcss](https://tailwindcss.com/) for styling, [ShadCN](https://ui.shadcn.com/) as our component library and for icons we're using [React Icons](https://react-icons.github.io/react-icons/)
+
+## How to setup the project
+
+First, fork the project and clone it from you github.
+Once that's done, make sure you are in Mystical-STD/mystical-app folder and you have node.js v20.10.0
+Then all you need to do is run run
 
 ```bash
+# step 1 [project installation]
+# this will install the project
+npm install
+
+# step 2 [run the project on dev mode]
+# this will start the project on you mode on you machine locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

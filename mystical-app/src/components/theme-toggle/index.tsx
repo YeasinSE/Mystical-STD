@@ -1,7 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
+import { RxMoon as MoonIcon } from "react-icons/rx";
+import { IoSunnyOutline as SunIcon } from "react-icons/io5";
 import { useTheme } from "next-themes";
 
 import { Button, ButtonProps } from "@/components/ui/button";

@@ -1,6 +1,7 @@
 "use client";
 
-import { HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-icons";
+import { RxHamburgerMenu as HamburgerMenuIcon } from "react-icons/rx";
+import { RxCross2 as CrossIcon } from "react-icons/rx";
 import { useLayout } from "@/providers/layout-provider";
 import { Button } from "@/components/ui";
 import { ThemeToggle } from "@/components";
@@ -16,7 +17,7 @@ export function MobileNavbar() {
         id="button"
         onClick={() => setShowMenu(!showMenu)}
       >
-        {showMenu ? <Cross1Icon /> : <HamburgerMenuIcon />}
+        {showMenu ? <CrossIcon /> : <HamburgerMenuIcon />}
       </Button>
       {showMenu ? (
         <div className="absolute left-0 top-[65px] py-4 w-screen h-[calc(100vh-64px)] z-10 dark:bg-black bg-white">
