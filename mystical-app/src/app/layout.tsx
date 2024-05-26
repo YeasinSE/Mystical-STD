@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { App } from "@/components";
 import { LayoutProvider } from "@/providers/layout-provider";
 import "./globals.css";
+import { AuthProvider } from "@/providers/auth-provider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,9 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <LayoutProvider>
+      <AuthProvider>
+        <LayoutProvider>
         <App>{children}</App>
       </LayoutProvider>
+      </AuthProvider>
+      
     </html>
   );
 }
