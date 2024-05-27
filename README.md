@@ -25,6 +25,7 @@ The project is still in testing progress. Hopefully, many new features will be a
 
 `Please click for details information about each service.`
 -------------------------------------------------------------------------------------
+- [Api-Auth-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/api-auth-server)
 - [Api-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/api-server)
 - [Api-Log-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/api-log-server)
 - [Api-Gateway-Server](https://github.com/YeasinSE/Mystical-STD/tree/main/api-gateway-server)
