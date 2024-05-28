@@ -1,4 +1,5 @@
-![Logo]()
+
+![MysticalLogoSmall](https://github.com/YeasinSE/Mystical-STD/assets/67215692/85580510-087a-4248-97b9-069f1019f428)
 
 # MYSTICAL STD
 MysticalSTD is a simple app built to demonstrate the Microservice Architecture Pattern using NodeJs, Express, kafka, redis and aws cloud etc. This app provides the developer experience and infrastructure to scan, test and deploy personalized Front-End Webapp. The project is intended as a tutorial but you are welcome to contributions.
